@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/navExploreFragment"
+        android:title="Explora"
+        android:icon="@drawable/ic_baseline_explore_24"
+  />
+    <item
+        android:id="@+id/navCoursesFragment"
+        android:title="Mis Cursos"
+        android:icon="@drawable/ic_baseline_work_24"
+/>
+    <item
+        android:id="@+id/navRemoteFragment"
+        android:title="Control Remoto"
+        android:icon="@drawable/ic_baseline_settings_remote_24"
+/>
+
 </menu>

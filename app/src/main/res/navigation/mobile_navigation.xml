@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navExploreFragment">
 
+    <fragment
+        android:id="@+id/navExploreFragment"
+        android:name="com.liid.explore.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment_to_coursesFragment"
+            app:destination="@id/navCoursesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navCoursesFragment"
+        android:name="com.liid.courses.CoursesFragment"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" >
+        <action
+            android:id="@+id/action_coursesFragment_to_remoteFragment"
+            app:destination="@id/navRemoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navRemoteFragment"
+        android:name="com.liid.remote.RemoteFragment"
+        android:label="fragment_remote"
+        tools:layout="@layout/fragment_remote" />
 </navigation>

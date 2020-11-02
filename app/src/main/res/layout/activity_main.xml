@@ -10,7 +10,7 @@
         android:layout_height="wrap_content">
 
         <Toolbar
-            android:id="@+id/toolBarMain"
+            android:id="@+id/tool_bar_main"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -26,7 +26,7 @@
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <fragment
-            android:id="@+id/fragContent"
+            android:id="@+id/fragment_content"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -37,6 +37,7 @@
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_menu"
+            android:backgroundTint="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

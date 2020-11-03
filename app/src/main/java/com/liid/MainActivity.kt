@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        setActionBar(findViewById(R.id.tool_bar_main))
+
         configNav()
     }
 

@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
     app:cardCornerRadius="10dp">
 
     <LinearLayout
@@ -11,41 +13,48 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:background="#F34573">
+        android:background="#F34573">
 
         <TextView
-            android:ellipsize="end"
-            android:lines="2"
+            android:id="@+id/item_course_tv_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:lines="2"
+            android:textAppearance="?attr/textAppearanceBody2"
             android:textColor="@android:color/white"
             tools:text="Ideación ágil sobre innovación educativa en ambientes virtuales y a distancia" />
 
         <LinearLayout
-            android:layout_marginTop="24dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp">
 
             <TextView
-
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
-                android:background="@drawable/rounded_corners"
+                android:id="@+id/item_course_tv_start_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Del 11 al 20 de marzo del 2020"/>
+                android:background="@drawable/rounded_corners"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@android:color/black"
+                tools:text="Del 11 al 20 de marzo del 2020"
+                tools:textColor="@android:color/black" />
 
 
             <TextView
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp"
-                android:background="@drawable/rounded_corners"
+                android:id="@+id/item_course_tv_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="8 horas"/>
-
-
+                android:background="@drawable/rounded_corners"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@android:color/black"
+                tools:text="8 horas"
+                tools:textColor="@android:color/black" />
 
 
         </LinearLayout>

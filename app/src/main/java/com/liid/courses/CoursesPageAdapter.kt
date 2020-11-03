@@ -22,7 +22,7 @@ class CoursesPageAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm) {
     }
 
     override fun getPageTitle(position: Int): CharSequence {
-        return "OBJECT ${(position + 1)}"
+        return "Nuevos ${(position + 1)}"
     }
 
 }

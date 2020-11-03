@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Final, top-level theme-->
+    <style name="Theme.Liid.DayNight" parent="Theme.Liid"/>
+
+    <style name="Theme.Liid" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <!--Color-->
+        <item name="colorPrimary">@color/liid_blue_700</item>
+        <item name="colorPrimaryVariant">@color/liid_blue_800</item>
+        <item name="colorSecondary">@color/liid_red_500</item>
+        <item name="colorSecondaryVariant">@color/liid_red_400</item>
+
+<!--        <item name="android:colorBackground">@color/liid_blue_50</item>-->
+        <item name="colorSurface">@color/liid_white</item>
+<!--        <item name="colorPrimarySurfaceVariant">?attr/colorPrimaryVariant</item>-->
+<!--        <item name="colorError">@color/liid_orange_400</item>-->
+
+        <item name="colorOnPrimary">@color/liid_white</item>
+        <item name="colorOnSecondary">@color/liid_black</item>
+        <item name="colorOnBackground">@color/liid_black</item>
+        <item name="colorOnSurface">@color/liid_black</item>
+        <item name="colorOnError">@color/liid_black</item>
+
+<!--        <item name="scrimBackground">@color/liid_white_50_alpha_060</item>-->
+        <item name="android:statusBarColor">@color/liid_white</item>
+
+
+
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Liid.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Liid.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Liid.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Liid.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Liid.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Liid.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Liid.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Liid.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Liid.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Liid.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Liid.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Liid.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Liid.Overline</item>
+
+        <item name="emphasisHighAlpha">0.87</item>
+        <item name="emphasisMediumAlpha">0.60</item>
+        <item name="emphasisDisabledAlpha">0.38</item>
+
+
+
+        <!--Styles-->
+        <item name="bottomAppBarStyle">@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface</item>
+        <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
+
+
+        <!--System/Platform attributes-->
+        <item name="android:windowBackground">?android:colorBackground</item>
+
+
+    </style>
+
+</resources>

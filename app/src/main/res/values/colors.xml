@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+
+    <!--Color palette-->
+    <color name="liid_white">#ffffff</color>
+
+    <color name="liid_black">#000000</color>
+
+    <color name="liid_blue_700">#00acc1</color>
+    <color name="liid_blue_800">#00acc1</color>
+
+    <color name="liid_red_400">#f47093</color>
+    <color name="liid_red_500">#f34573</color>
+
+    <color name="liid_orange">#fbc559</color>
+
+    <color name="liid_black_alpha_030">#4D000000</color>
+
+
+
+
 </resources>
